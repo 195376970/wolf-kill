@@ -1,0 +1,34 @@
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境变量文件
+.env
+
+# 生成的记录文件
+game_records/*
+!game_records/.gitkeep
+!game_records/html/
+game_records/html/*
+!game_records/html/.gitkeep
+!game_records/html/css/
+game_records/html/css/*
+!game_records/html/css/.gitkeep
+
+# API测试相关文件
+test_api.py
+tiantian_api_test.py
+*_test.py
+
+# IDE配置
+.vscode/
+.idea/
+
+# 调试文件
+debug/
+debug_html.py
+
+# 系统文件
+.DS_Store
+Thumbs.db
