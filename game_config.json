@@ -1,0 +1,64 @@
+{
+  "game_settings": {
+    "players_count": 8,
+    "werewolves_count": 2,
+    "seer_enabled": true,
+    "witch_enabled": true,
+    "max_rounds": 20
+  },
+  "players": [
+    {
+      "name": "玩家1",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家2",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家3",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家4",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家5",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家6",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家7",
+      "api_key": "your_api_key_here"
+    },
+    {
+      "name": "玩家8",
+      "api_key": "your_api_key_here"
+    }
+  ],
+  "llm_settings": {
+    "api_key": "your_api_key_here",
+    "api_base": "https://api.openai.com/v1",
+    "temperature": 0.7,
+    "max_tokens": 500,
+    "timeout": 30,
+    "available_models": [
+      "gpt-4",
+      "gpt-3.5-turbo",
+      "claude-3",
+      "claude-instant"
+    ]
+  },
+  "prompt_templates": {
+    "werewolf_night": "你是狼人，请选择你要猎杀的目标。",
+    "seer_night": "你是预言家，请选择你要查验的目标。",
+    "witch_save": "你是女巫，请决定是否要使用解药救活被杀的玩家。",
+    "witch_poison": "你是女巫，请决定是否要使用毒药毒死一名玩家。",
+    "day_discussion": "请根据当前游戏情况，发表你的看法。",
+    "day_vote": "请投票选择你认为是狼人的玩家。"
+  }
+}
